@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+header div{
+    display: block;
+    text-align: center;
+    background-color: #198754;
+    color : white;
+    padding: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header div h1{
+    font-size: 40px;
+}
+
+
+:root{
+	--body-color: white;
+	--nav-color: #0d6efd;
+	--bg-color:#fff;
+	--logo-color: white;
+	--judul-color: white;
+    --footer-color: #626262;
+    --fh-color: #198754;
+}
+
+body{
+	background: var(--body-color);
+	transition: background 0.3s;
+}
+nav{
+	display: flex;
+    justify-content: space-between;
+    background: var(--nav-color);
+    padding: 20px;
+    position: sticky;
+}
+
+.nav-left{
+    display: flex;
+    float: left;
+}
+.nav-left ul li{
+	list-style: none;
+    display: inline-block;
+	margin: 0 15px;
+}
+.nav-left ul li a{
+	text-decoration: none;
+	font-size: 18px;
+	color : var(--judul-color) ;
+}
+
+.judul p{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 3%;
+    font-style: initial;
+}
+
+.judul i{
+    font-size: 40 px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 3%;
+    font-style: initial;
+}
+
+.footer-bottom{
+    margin-top: 5%;
+    background: #198754;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+}
+.footer-bottom h1{
+    font-size: 40px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom p{
+    padding: 1%;
+    font-size: 16px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+div.elem-group {
+    margin: 40px 0;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    font-family: 'Aleo';
+    padding-bottom: 4px;
+    font-size: 1.25em;
+  }
+  
+  input, select, textarea {
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    font-family: 'Aleo';
+    width: 500px;
+    padding: 8px;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  button {
+    height: 50px;
+    width: 400px;
+    background: #0d6efd;
+    color: white;
+    border: 2px solid #0d6efd;
+    font-size: 1.25em;
+    font-family: 'Aleo';
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    border: 2px solid #0d6efd;
+  }

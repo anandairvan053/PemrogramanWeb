@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<meta charset="UTF-8">
+    <title>Werds Store || Versi CSS</title>
+    <link rel="icon" href="gambar/logo.png" type="image/ico"/>
+	<link rel="stylesheet" href="./css/kontak.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-content">
+                <h1>Selamat Datang di Werds Store</h1>
+                <br>
+                <p>Segera kumpulkan koleksi terbarunya! Persediaan Terbatas</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="nav-left">
+            <ul>  
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="pakaian.html">Pakaian</a>
+                </li>
+                <li>
+                    <a href="jaket.html" >Jaket</a>
+                </li>
+                <li>
+                    <a href="celana.html" >Celana</a>
+                </li>
+                <li>
+                    <a href="sepatu.html" >Sepatu</a>
+                </li>
+                <li>
+                    <a href="kontak.html" >kontak</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="judul">
+        <p> Hubungi Kami</p>
+        <center>
+        <i>_______________________________________________________</i>
+        </center>
+    </div>
+
+    <form action="contact.php" method="post">
+        <div class="elem-group">
+          <label for="name">Email</label>
+          <input type="text" id="name" name="visitor_name" placeholder="Masukan alamat email anda" pattern=[A-Z\sa-z]{3,20} required>
+        </div>
+        <div class="elem-group">
+          <label for="email">Nama Pengguna</label>
+          <input type="email" id="email" name="visitor_email" placeholder="Masukan nama anda" required>
+        </div>
+        <div class="elem-group">
+          <label for="message">Kritik/Saran</label>
+          <textarea id="message" name="visitor_message" required></textarea>
+        </div>
+        <center>
+        <button type="submit">Kirim</button>
+        </center>
+      </form>
+            
+        <footer>
+                </div>
+                <div class="footer-bottom">
+                    <h1>Werds Store</h1>
+                    <p>Copyright @2022 Website Toko Online : Werds Store by Ananda Irvan Tri Kurniawan</p>
+                </div>
+        </footer>
+
+        <script> 
+            function myalert() { 
+                alert("Terima kasih telah memesan produk kami, untuk transaksi selanjutnya silahkan chek email anda") 
+            } 
+        </script> 
+
+</body>
