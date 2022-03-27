@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Werds Store || Versi Bootstrap</title>
+  <link rel="icon" href="gambar/logo.png" type="image/ico"/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid p-5 bg-success text-white text-center">
+  <h1>Selamat Datang di Werds Store</h1>
+  <p>Segera kumpulkan koleksi terbarunya! Persediaan Terbatas</p>
+</div>
+
+<nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><font size="5">Home</font></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="pakaian.html">Pakaian</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="jaket.html">Jaket</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="celana.html">Celana</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sepatu.html">Sepatu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="kontak.html">Kontak</a>
+          </li>         
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<div class="container p-5 my-5 bg-success text-white">
+    <h1>Pilihan Katagori</h1>
+  </div>
+
+<div class="container mt-5 align-self-center">
+  <div class="row">
+    <div class="card col-lg-3 p-3 bg-primary text-white" width="200" height="200">
+        <img class="card-img-top" src="gambar/booskyClothes.png" alt="Card image" width="200" height="200">
+        <div class="card-body">
+          <h4 class="card-title">Pakaian</h4>
+          <p class="card-text">Silahkan cek selengkapnya untuk mencari tau pakaian - pakaian produk kami</p>
+          <a href="pakaian.html" class="btn btn-success">Selengkapnya</a>
+        </div>
+    </div>
+    <div class="card col-lg-3 p-3 bg-success text-white" width="200" height="200">
+      <img class="card-img-top" src="gambar/overcoatJacket.png" alt="Card image" width="200" height="200">
+      <div class="card-body">
+        <h4 class="card-title">Jaket</h4>
+        <p class="card-text">Ada jaket - jaket kece nih yang siap kalian pake, buruan cek selengkapnya</p>
+        <a href="jaket.html" class="btn btn-primary">Selengkapnya</a>
+      </div>
+    </div>
+    <div class="card col-lg-3 p-3 bg-primary text-white" width="200" height="200">
+      <img class="card-img-top" src="gambar/ripestPants.png" alt="Card image" width="200" height="200">
+      <div class="card-body">
+        <h4 class="card-title">Celana</h4>
+        <p class="card-text">Bingung cari celana? jangan khawatir disini banyak celana yang bisa kamu pilih</p>
+        <a href="celana.html" class="btn btn-success">Selengkapnya</a>
+      </div>
+    </div>
+    <div class="card col-lg-3 p-3 bg-success text-white" width="200" height="200">
+      <img class="card-img-top" src="gambar/darkiestbootShoes.png" alt="Card image" width="200" height="200">
+      <div class="card-body">
+        <h4 class="card-title">Sepatu</h4>
+        <p class="card-text">Bosen memakai sepatu yang itu - itu ajah? tenang disini solusinya, anda bisa mencari sepatu disini</p>
+        <a href="sepatu.html" class="btn btn-primary">Selengkapnya</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container mt-5">
+    <h1>FLASH SALE !</h1>           
+    <table class="table table-dark table-hover">
+      <tbody>
+        <tr class="table-info">
+          <td><img src="gambar/shortblackyTshirt.png" class="rounded" alt="Cinque Terre" width="200" height="200"></td>
+          <td><h3>Short Blacky T-shirt</h3><span class="badge bg-danger">Terlaris</span></td>
+          <td><h3>Rp 80.000</h3></td>
+          <td>
+            <div class="container mt-2">
+                <div class="progress" style="height:25px">
+                    <div class="progress-bar" style="width:50%">5/10</div>
+                </div>
+            </div>
+          </td>
+          <td><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+            Pesan Sekarang
+          </button>
+          </td>
+        </tr>
+        <tr class="table-warning">
+            <td><img src="gambar/yonomoShoes.png" class="rounded" alt="Cinque Terre" width="200" height="200"></td>
+            <td><h3>Yonomo Shoes</h3><span class="badge bg-danger">Terlaris</span></td>
+            <td><h3>Rp 200.000</h3></td>
+            <td>
+                <div class="container mt-2">
+                    <div class="progress" style="height:25px">
+                        <div class="progress-bar" style="width:80%">8/10</div>
+                    </div>
+                </div>
+              </td>
+            <td><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+              Pesan Sekarang
+            </button>
+            </td>
+        </tr>
+        <tr class="table-info">
+            <td><img src="gambar/blackiestTshirt.png" class="rounded" alt="Cinque Terre" width="200" height="200"></td>
+            <td><h3>Blackiest T-Shirt</h3><span class="badge bg-danger">Terlaris</span></td>
+            <td><h3>Rp 100.000</h3></td>
+            <td>
+                <div class="container mt-2">
+                    <div class="progress" style="height:25px">
+                        <div class="progress-bar" style="width:50%">5/10</div>
+                    </div>
+                </div>
+              </td>
+            <td><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+              Pesan Sekarang
+            </button>
+            </td>
+        </tr>
+        <tr class="table-warning">
+            <td><img src="gambar/blackshortPants.png" class="rounded" alt="Cinque Terre" width="200" height="200"></td>
+            <td><h3>Black Short Pants</h3><span class="badge bg-danger">Terlaris</span></td>
+            <td><h3>Rp 100.000</h3></td>
+            <td>
+                <div class="container mt-2">
+                    <div class="progress" style="height:25px">
+                        <div class="progress-bar" style="width:50%">5/10</div>
+                    </div>
+                </div>
+              </td>
+            <td><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+              Pesan Sekarang
+            </button>
+            </td>
+        </tr>
+        <tr class="table-info">
+            <td><img src="gambar/shortcreamyPants.png" class="rounded" alt="Cinque Terre" width="200" height="200" ></td>
+            <td><h3>Short Creamy Pants</h3><span class="badge bg-danger">Terlaris</span></td>
+            <td><h3>Rp 125.000</h3></td>
+            <td>
+                <div class="container mt-2">
+                    <div class="progress" style="height:25px">
+                        <div class="progress-bar" style="width:60%">6/10</div>
+                    </div>
+                </div>
+              </td>
+            <td><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+              Pesan Sekarang
+            </button>
+            </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Pemberitahuan</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+          Terima kasih telah memesan produk kami, untuk transaksi selanjutnya silahkan chek email anda
+        </div>
+  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Tutup</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-5 p-4 bg-success text-white text-center">
+    <h1>Werds Store</h1>
+    <p>Copyright @2022 Website Toko Online : Werds Store by Ananda Irvan Tri Kurniawan</p>
+  </div>
+
+</body>
+</html>
